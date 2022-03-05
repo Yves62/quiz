@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz sur Michael Schumacher</title>
+</head>
+<body>
+    
+    <h1>Connaissez-vous bien Michael Schumacher ?</h1>
+    
+    <form class="container">
+        <div class="question" id="question1">
+            <h2>Combien de titres a gagné Michael Schumacher ?</h2>
+            <div class="answer" >
+                <div class="first">
+                    <input type="radio" name="q1" id="one" value="a" required checked>
+                    <label for="one">6</label>
+                </div>
+                <div class="second">
+                    <input type="radio" name="q1" id="two" value="b"  required >
+                    <label for="two">7</label>
+                </div>
+                <div class="third">
+                    <input type="radio" name="q1" id="three" value="c"   required>
+                    <label for="three">8</label>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question2">
+            <h2>Combien de victoires a gagné Michael Schumacher ?</h2>
+            <div class="answer" >
+                <div class="first">
+                    <input type="radio" name="q2" id="four" value="a" required checked>
+                    <label for="four">70</label>
+                </div>
+                <div class="second">
+                    <input type="radio" name="q2" id="five" value="b" required>
+                    <label for="five">102</label>
+                </div>
+                <div class="third">
+                    <input type="radio" name="q2" id="six" value="c" required>
+                    <label for="six">91</label>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question3">
+            <h2>Combien de meilleurs tours à réalisé Michael Schumacher ?</h2>
+            <div class="answer" >
+                <div class="first">
+                    <input type="radio" name="q3" id="seven" value="a" required checked>
+                    <label for="seven">77</label>
+                </div>
+                <div class="second">
+                    <input type="radio" name="q3" id="eight" value="b" required>
+                    <label for="eight">65</label>
+                </div>
+                <div class="third">
+                    <input type="radio" name="q3" id="nine" value="c" required>
+                    <label for="nine">80</label>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question4">
+            <h2>Combien de poles positions à effectué Michael Schumacher ?</h2>
+            <div class="answer" >
+                <div class="first">
+                    <input type="radio" name="q4" id="ten" value="a" required checked>
+                    <label for="ten">50</label>
+                </div>
+                <div class="second">
+                    <input type="radio" name="q4" id="eleven" value="b" required>
+                    <label for="eleven">75</label>
+                </div>
+                <div class="third">
+                    <input type="radio" name="q4" id="twelve" value="c" required>
+                    <label for="twelve">68</label>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question5">
+            <h2>Quelle est sa première écurie  ?</h2>
+            <div class="answer" >
+                <div class="first">
+                    <input type="radio" name="q5" id="thirteen" value="a" required checked>
+                    <label for="thirteen">Ferrari</label>
+                </div>
+                <div class="second">
+                    <input type="radio" name="q5" id="fourteen" value="b" required>
+                    <label for="fourteen">Jordan</label>
+                </div>
+                <div class="third">
+                    <input type="radio" name="q5" id="fifteen" value="c" required>
+                    <label for="fifteen">Mercedes</label>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Valider vos choix">
+        </div>
+        <div class="instructions">
+            <p id="score"></p>
+            <p id="txt">Cliquez sur valider pour voir le résultat</p>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
